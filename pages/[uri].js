@@ -11,10 +11,11 @@ useEffect(()=>{
     <div>
       <Head>
         <title>{post?.title}</title>
-        <meta property="og:title" content={post?.title} />
+       <meta property="og:title" content={post?.title} />
         <meta property="og:description" content={post?.title} />
         <meta property="og:image" content={post?.featuredImage?.node?.sourceUrl} />
         <meta property="og:url" content={`https://catlolo.vercel.app/${post?.slug}`} />
+        <meta property="og:url" content={`https://catlolo-seven.vercel.app/${post?.slug}`} />
         <meta property="og:type" content="articals" />
         <link rel="icon" href="favicon.ico"></link>
       </Head>
